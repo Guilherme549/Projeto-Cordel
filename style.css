@@ -62,6 +62,15 @@ header > p{
     font-weight: normal;
     line-height: 2em;
     
+    
+}
+
+.normal{
+    padding-bottom: 25vh;
+}
+
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 #imagem1{
@@ -72,12 +81,31 @@ header > p{
     background-attachment: fixed;
 }
 
+#imagem1 > p{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+#imagem2 > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    color: white;
+}
+
 #imagem2{
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 
