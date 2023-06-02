@@ -52,6 +52,9 @@ header > p{
     padding-bottom: 50px;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
 .normal, .imagem{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -65,9 +68,7 @@ header > p{
     
 }
 
-.normal{
-    padding-bottom: 25vh;
-}
+
 
 .imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
